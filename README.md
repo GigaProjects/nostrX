@@ -122,6 +122,7 @@ If you are using a **Free** Twitter Developer account, be aware of these limits:
 - **State Tracking:** Uses `sync_state.json` to store the last synced Unix timestamp and a list of recent event IDs for deduplication.
 - **Media:** Automatically detects image/video URLs in your Nostr notes, downloads them to a temporary file, and uploads them to Twitter as native media attachments.
 - **One-Way:** Strictly reads from Nostr and writes to Twitter. It does not read your Tweets.
+- **Character Limit:** Posts longer than 280 characters are automatically truncated to 277 characters with "..." appended.
 
 ## Credits & Inspiration
 
