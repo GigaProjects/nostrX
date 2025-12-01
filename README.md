@@ -47,7 +47,7 @@ Dont worry its FREE.
 Copy the example file to create your own configuration:
 
 ```bash
-cp .env.example .env
+cp env.example .env
 ```
 
 Open `.env` and paste your keys:
