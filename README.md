@@ -4,11 +4,11 @@ A local, self-hosted tool to automatically sync your Nostr posts to Twitter/X.
 
 ## Features
 
-- 🔒 **Runs locally** - No need to trust third-party services
-- 🔄 **One-Way Sync** - Reads from Nostr, posts to Twitter
-- 💾 **Stateful** - Remembers where it left off (runs efficiently via cron)
-- 🖼️ **Media Support** - Downloads images/videos from Nostr and uploads them to Twitter natively
-- 🚫 **Filters replies** - Only posts top-level notes
+-  **Runs locally** - No need to trust third-party services
+-  **One-Way Sync** - Reads from Nostr, posts to Twitter
+-  **Stateful** - Remembers where it left off (runs efficiently via cron)
+-  **Media Support** - Downloads images/videos from Nostr and uploads them to Twitter natively
+-  **Filters replies** - Only posts top-level notes
 
 ## Setup
 
@@ -110,7 +110,7 @@ Change `86400` (24 hours in seconds) to a larger number.
 - It records the exact timestamp of the last post it successfully synced.
 - Next time you run it, it **continues exactly where it left off**, ensuring no posts are missed and no duplicates are created.
 
-## ⚠️ Twitter Free Tier Limits
+##  Twitter Free Tier Limits
 
 If you are using a **Free** Twitter Developer account, be aware of these limits:
 - **500 posts per month** (approx. 17 posts per day).
